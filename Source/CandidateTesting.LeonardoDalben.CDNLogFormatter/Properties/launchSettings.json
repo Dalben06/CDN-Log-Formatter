@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CandidateTesting.LeonardoDalben.CDNLogFormatter": {
+      "commandName": "Project",
+      "commandLineArgs": "https://s3.amazonaws.com/uux-itaas-static/minha-cdn-logs/input-01.txt C:\\Test\\testFile.txt"
+    }
+  }
+}

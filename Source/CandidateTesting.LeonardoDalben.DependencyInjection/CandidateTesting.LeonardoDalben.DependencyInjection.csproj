@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CandidateTesting.LeonardoDalben.Formatter.Application\CandidateTesting.LeonardoDalben.Formatter.Application.csproj" />
+    <ProjectReference Include="..\CandidateTesting.LeonardoDalben.Formatter.Domain\CandidateTesting.LeonardoDalben.Formatter.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
